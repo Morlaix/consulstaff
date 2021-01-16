@@ -37,4 +37,9 @@
     },
     {
       "idiom" : "iphone",
-      "size" : "60x6
+      "size" : "60x60",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "s
