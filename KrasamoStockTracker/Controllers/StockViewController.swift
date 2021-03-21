@@ -10,4 +10,5 @@ import UIKit
 
 class StockViewController: UIViewController {
     
-    @
+    @IBOutlet weak var stockTableView: UITableView!
+    @IBOutlet weak
