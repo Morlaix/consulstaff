@@ -14,4 +14,5 @@ class StockViewController: UIViewController {
     @IBOutlet weak var stockSymbolPopupView: UIView!
     @IBOutlet weak var dismissPopupButton: UIButton!
     @IBOutlet weak var stockPopupOkButton: UIButton!
-    @IBOutlet weak var sto
+    @IBOutlet weak var stockPopupLabel: UILabel!
+    @IBOutlet weak var stockPopupTextField:
