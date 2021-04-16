@@ -19,4 +19,7 @@ class StockViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     let refresher = UIRefreshControl()
-    let dataSource
+    let dataSource = StockDataSource()
+    let iexNetworkClient = IEXClient()
+    
+    @IBAction func s
