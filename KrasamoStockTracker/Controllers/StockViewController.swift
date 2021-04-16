@@ -16,4 +16,7 @@ class StockViewController: UIViewController {
     @IBOutlet weak var stockPopupOkButton: UIButton!
     @IBOutlet weak var stockPopupLabel: UILabel!
     @IBOutlet weak var stockPopupTextField: UITextField!
-    @IBOutlet weak var activityIndicator: UIActivityIndicato
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    let refresher = UIRefreshControl()
+    let dataSource
