@@ -22,4 +22,8 @@ class StockViewController: UIViewController {
     let dataSource = StockDataSource()
     let iexNetworkClient = IEXClient()
     
-    @IBAction func s
+    @IBAction func showStockSymbolPopup(_ sender: UIBarButtonItem) {
+        configurePopup()
+    }
+    
+    @IBAction f
