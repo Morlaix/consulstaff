@@ -30,4 +30,5 @@ class StockViewController: UIViewController {
         dismissPopup()
     }
     
-    f
+    fileprivate func configurePopup() {
+        stockPopupLabel.text = "
