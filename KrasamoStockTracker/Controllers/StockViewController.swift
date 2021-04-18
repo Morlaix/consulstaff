@@ -26,4 +26,8 @@ class StockViewController: UIViewController {
         configurePopup()
     }
     
-    @IBAction f
+    @IBAction func dismissStockSymbolPopup(_ sender: UIButton) {
+        dismissPopup()
+    }
+    
+    f
