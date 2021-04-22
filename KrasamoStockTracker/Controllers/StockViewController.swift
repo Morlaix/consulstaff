@@ -33,4 +33,7 @@ class StockViewController: UIViewController {
     fileprivate func configurePopup() {
         stockPopupLabel.text = "New Stock Symbol"
         dismissPopupButton.isEnabled = true
-        stockPo
+        stockPopupTextField.isHidden = false
+        activityIndicator.stopAnimating()
+        
+     
