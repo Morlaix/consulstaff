@@ -41,4 +41,6 @@ class StockViewController: UIViewController {
         }
     }
     
-    fileprivate func dismissPo
+    fileprivate func dismissPopup() {
+        stockPopupTextField.text = ""
+        dismissPopupButton.isEnabled = fal
