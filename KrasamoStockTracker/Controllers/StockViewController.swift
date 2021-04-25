@@ -37,4 +37,8 @@ class StockViewController: UIViewController {
         activityIndicator.stopAnimating()
         
         UIView.animate(withDuration: 0.3) {
-            self.stockSymbolPopupVie
+            self.stockSymbolPopupView.alpha = 1.0
+        }
+    }
+    
+    fileprivate func dismissPo
