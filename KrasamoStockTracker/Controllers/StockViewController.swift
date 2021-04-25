@@ -36,4 +36,5 @@ class StockViewController: UIViewController {
         stockPopupTextField.isHidden = false
         activityIndicator.stopAnimating()
         
-     
+        UIView.animate(withDuration: 0.3) {
+            self.stockSymbolPopupVie
