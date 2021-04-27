@@ -43,4 +43,7 @@ class StockViewController: UIViewController {
     
     fileprivate func dismissPopup() {
         stockPopupTextField.text = ""
-        dismissPopupButton.isEnabled = fal
+        dismissPopupButton.isEnabled = false
+        stockPopupTextField.resignFirstResponder()
+        
+        UIV
