@@ -46,4 +46,5 @@ class StockViewController: UIViewController {
         dismissPopupButton.isEnabled = false
         stockPopupTextField.resignFirstResponder()
         
-        UIV
+        UIView.animate(withDuration: 0.3) {
+            self.stockSymbolPopupView.alpha = 0
