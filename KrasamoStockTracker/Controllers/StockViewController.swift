@@ -47,4 +47,9 @@ class StockViewController: UIViewController {
         stockPopupTextField.resignFirstResponder()
         
         UIView.animate(withDuration: 0.3) {
-            self.stockSymbolPopupView.alpha = 0
+            self.stockSymbolPopupView.alpha = 0.0
+        }
+    }
+    
+    func showError(withMessage message: String) {
+  
