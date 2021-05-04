@@ -52,4 +52,6 @@ class StockViewController: UIViewController {
     }
     
     func showError(withMessage message: String) {
-  
+        configurePopup()
+        stockPopupLabel.text = message
+        stockPopupTe
