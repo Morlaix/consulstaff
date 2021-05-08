@@ -54,4 +54,7 @@ class StockViewController: UIViewController {
     func showError(withMessage message: String) {
         configurePopup()
         stockPopupLabel.text = message
-        stockPopupTe
+        stockPopupTextField.isHidden = true
+    }
+    
+    @IBAction func addStockTracker(_ sender: U
