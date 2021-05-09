@@ -57,4 +57,5 @@ class StockViewController: UIViewController {
         stockPopupTextField.isHidden = true
     }
     
-    @IBAction func addStockTracker(_ sender: U
+    @IBAction func addStockTracker(_ sender: UIBarButtonItem) {
+        guard let stockSymbol = stockPopupTextField.tex
