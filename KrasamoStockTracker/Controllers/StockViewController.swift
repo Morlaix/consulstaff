@@ -69,4 +69,9 @@ class StockViewController: UIViewController {
         
         if !stockSymbol.isEmpty {
             getStock(WithSymbol: stockSymbol)
- 
+        }
+        
+        dismissPopup()
+    }
+    
+    fileprivate fu
