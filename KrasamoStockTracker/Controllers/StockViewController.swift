@@ -62,4 +62,8 @@ class StockViewController: UIViewController {
             return
         }
         
-        if dataSource.checkIfDuplicatedS
+        if dataSource.checkIfDuplicatedSymbol(stockSymbol) {
+            dismissPopup()
+            return
+        }
+        
