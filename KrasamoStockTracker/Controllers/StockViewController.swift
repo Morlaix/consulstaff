@@ -67,3 +67,6 @@ class StockViewController: UIViewController {
             return
         }
         
+        if !stockSymbol.isEmpty {
+            getStock(WithSymbol: stockSymbol)
+ 
