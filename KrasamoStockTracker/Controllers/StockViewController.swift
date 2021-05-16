@@ -58,4 +58,8 @@ class StockViewController: UIViewController {
     }
     
     @IBAction func addStockTracker(_ sender: UIBarButtonItem) {
-        guard let stockSymbol = stockPopupTextField.tex
+        guard let stockSymbol = stockPopupTextField.text else {
+            return
+        }
+        
+        if dataSource.checkIfDuplicatedS
