@@ -74,4 +74,7 @@ class StockViewController: UIViewController {
         dismissPopup()
     }
     
-    fileprivate fu
+    fileprivate func getStock(WithSymbol symbol: String) {
+        activityIndicator.startAnimating()
+        
+ 
