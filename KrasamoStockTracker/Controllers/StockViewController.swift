@@ -77,4 +77,5 @@ class StockViewController: UIViewController {
     fileprivate func getStock(WithSymbol symbol: String) {
         activityIndicator.startAnimating()
         
- 
+        iexNetworkClient.getQuote(ForSymbol: symbol) { (data, error) in
+          
