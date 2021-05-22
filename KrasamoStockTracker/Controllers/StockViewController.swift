@@ -78,4 +78,6 @@ class StockViewController: UIViewController {
         activityIndicator.startAnimating()
         
         iexNetworkClient.getQuote(ForSymbol: symbol) { (data, error) in
-          
+            DispatchQueue.main.async {
+                guard error == nil else {
+                    
