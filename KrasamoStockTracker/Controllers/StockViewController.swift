@@ -80,4 +80,5 @@ class StockViewController: UIViewController {
         iexNetworkClient.getQuote(ForSymbol: symbol) { (data, error) in
             DispatchQueue.main.async {
                 guard error == nil else {
-                    
+                    self.showError(withMessage: error!.localizedDescription)
+                    return
