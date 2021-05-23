@@ -82,3 +82,6 @@ class StockViewController: UIViewController {
                 guard error == nil else {
                     self.showError(withMessage: error!.localizedDescription)
                     return
+                }
+                
+                guard let quote = data else
