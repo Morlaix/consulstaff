@@ -86,4 +86,7 @@ class StockViewController: UIViewController {
                 
                 guard let quote = data else {
                     self.showError(withMessage: "No stock data found.")
-       
+                    return
+                }
+                
+                self.dataSource.addSto
