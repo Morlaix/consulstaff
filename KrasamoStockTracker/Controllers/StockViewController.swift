@@ -89,4 +89,6 @@ class StockViewController: UIViewController {
                     return
                 }
                 
-                self.dataSource.addSto
+                self.dataSource.addStockQuote(quote)
+                self.stockTableView.reloadData()
+       
