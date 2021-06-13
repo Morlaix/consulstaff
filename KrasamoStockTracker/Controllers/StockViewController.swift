@@ -95,3 +95,6 @@ class StockViewController: UIViewController {
             }
         }
     }
+    
+    @objc fileprivate func refreshStocks() {
+        guard let stockArray = UserDefaul
