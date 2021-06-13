@@ -91,4 +91,7 @@ class StockViewController: UIViewController {
                 
                 self.dataSource.addStockQuote(quote)
                 self.stockTableView.reloadData()
-       
+                self.activityIndicator.stopAnimating()
+            }
+        }
+    }
