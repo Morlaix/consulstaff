@@ -109,4 +109,8 @@ class StockViewController: UIViewController {
         }
         
         refresher.endRefreshing()
- 
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+  
