@@ -98,4 +98,8 @@ class StockViewController: UIViewController {
     
     @objc fileprivate func refreshStocks() {
         guard let stockArray = UserDefaults.standard.array(forKey: dataSource.USER_DEFAULT_KEY) else {
-            print("No stock sy
+            print("No stock symbols in User Defaults")
+            return
+        }
+        
+        dataS
