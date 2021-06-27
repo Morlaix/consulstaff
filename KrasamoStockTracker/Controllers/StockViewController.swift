@@ -105,4 +105,8 @@ class StockViewController: UIViewController {
         dataSource.removeAllStockQuotes()
         
         for symbol in stockArray as! [String] {
-       
+            getStock(WithSymbol: symbol)
+        }
+        
+        refresher.endRefreshing()
+ 
