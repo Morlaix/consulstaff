@@ -102,4 +102,7 @@ class StockViewController: UIViewController {
             return
         }
         
-        dataS
+        dataSource.removeAllStockQuotes()
+        
+        for symbol in stockArray as! [String] {
+       
