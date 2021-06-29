@@ -113,4 +113,5 @@ class StockViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-  
+        
+        let darkGray = UIColor.init(displayP3Red: 35.0/255.0, green: 31.0/255.0, 
