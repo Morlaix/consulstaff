@@ -118,4 +118,7 @@ class StockViewController: UIViewController {
         
         stockTableView.dataSource = dataSource
         stockTableView.backgroundColor = darkGray
-        stockTableView.tableFooterV
+        stockTableView.tableFooterView = UIView()
+        
+        stockPopupTextField.delegate = self
+   
