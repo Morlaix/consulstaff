@@ -121,4 +121,5 @@ class StockViewController: UIViewController {
         stockTableView.tableFooterView = UIView()
         
         stockPopupTextField.delegate = self
-   
+        stockPopupOkButton.layer.borderWidth = 1.0
+        stockPopupOkButton.layer.borderColor 
