@@ -122,4 +122,6 @@ class StockViewController: UIViewController {
         
         stockPopupTextField.delegate = self
         stockPopupOkButton.layer.borderWidth = 1.0
-        stockPopupOkButton.layer.borderColor 
+        stockPopupOkButton.layer.borderColor = UIColor.white.cgColor
+        
+        navigationController?.navig
