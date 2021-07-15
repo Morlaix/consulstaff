@@ -125,4 +125,5 @@ class StockViewController: UIViewController {
         stockPopupOkButton.layer.borderColor = UIColor.white.cgColor
         
         navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
-        navigationController?.navigationBar
+        navigationController?.navigationBar.barStyle = .black
+        navigationController?.navigationBar.isTransluce
