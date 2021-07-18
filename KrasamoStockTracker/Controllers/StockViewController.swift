@@ -126,4 +126,5 @@ class StockViewController: UIViewController {
         
         navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
         navigationController?.navigationBar.barStyle = .black
-        navigationController?.navigationBar.isTransluce
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.barTint
