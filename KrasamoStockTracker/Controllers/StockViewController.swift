@@ -128,4 +128,6 @@ class StockViewController: UIViewController {
         navigationController?.navigationBar.barStyle = .black
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barTintColor = darkGray
-        navigationController?.navigationBar.titleTextAttributes 
+        navigationController?.navigationBar.titleTextAttributes = [
+            NSAttributedString.Key.foregroundColor: UIColor.white
+      
