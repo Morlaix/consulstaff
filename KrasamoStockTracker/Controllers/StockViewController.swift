@@ -134,4 +134,5 @@ class StockViewController: UIViewController {
     
         view.backgroundColor = darkGray
         
-        refresh
+        refresher.tintColor = UIColor.white
+        refresher.addTarget(self, action: #selector(refreshStocks), f
