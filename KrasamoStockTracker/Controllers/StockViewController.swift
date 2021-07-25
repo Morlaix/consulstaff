@@ -135,4 +135,7 @@ class StockViewController: UIViewController {
         view.backgroundColor = darkGray
         
         refresher.tintColor = UIColor.white
-        refresher.addTarget(self, action: #selector(refreshStocks), f
+        refresher.addTarget(self, action: #selector(refreshStocks), for: .valueChanged)
+        stockTableView.addSubview(refresher)
+        
+        refresh
