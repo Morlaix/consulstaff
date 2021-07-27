@@ -138,4 +138,7 @@ class StockViewController: UIViewController {
         refresher.addTarget(self, action: #selector(refreshStocks), for: .valueChanged)
         stockTableView.addSubview(refresher)
         
-        refresh
+        refreshStocks()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyl
