@@ -141,4 +141,9 @@ class StockViewController: UIViewController {
         refreshStocks()
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyl
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+}
+
+extension StockViewController: UITextFi
