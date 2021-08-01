@@ -146,4 +146,6 @@ class StockViewController: UIViewController {
     }
 }
 
-extension StockViewController: UITextFi
+extension StockViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.res
