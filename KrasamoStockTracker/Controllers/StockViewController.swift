@@ -148,4 +148,7 @@ class StockViewController: UIViewController {
 
 extension StockViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.res
+        textField.resignFirstResponder()
+        return false
+    }
+}
