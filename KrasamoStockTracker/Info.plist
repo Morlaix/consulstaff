@@ -26,4 +26,6 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<s
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientatio
