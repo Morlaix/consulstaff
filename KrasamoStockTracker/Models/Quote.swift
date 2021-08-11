@@ -10,4 +10,7 @@ import Foundation
 
 struct Quote: Decodable {
     let symbol: String?
-    let co
+    let companyName: String?
+    let primaryExchange: String?
+    let sector: String?
+    let calculationPri
