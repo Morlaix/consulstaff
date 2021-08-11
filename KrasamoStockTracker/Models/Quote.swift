@@ -6,4 +6,8 @@
 //  Copyright © 2019 Rays Industrial Computers. All rights reserved.
 //
 
-impo
+import Foundation
+
+struct Quote: Decodable {
+    let symbol: String?
+    let co
