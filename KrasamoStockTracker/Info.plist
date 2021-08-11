@@ -31,4 +31,5 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIIn
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrien
