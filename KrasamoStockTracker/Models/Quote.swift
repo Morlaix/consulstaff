@@ -13,4 +13,7 @@ struct Quote: Decodable {
     let companyName: String?
     let primaryExchange: String?
     let sector: String?
-    let calculationPri
+    let calculationPrice: String?
+    let open: Float?
+    let openTime: Int?
+    let close: Float?
