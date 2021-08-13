@@ -19,4 +19,8 @@ struct Quote: Decodable {
     let close: Float?
     let closeTime: Int?
     let high: Float?
-    let low: Floa
+    let low: Float?
+    let latestPrice: Float?
+    let latestSource: String?
+    let latestTime: String?
+    let latestU
