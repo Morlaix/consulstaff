@@ -29,4 +29,6 @@ struct Quote: Decodable {
     let iexRealtimeSize: Float?
     let iexLastUpdated: Int?
     let delayedPrice: Float?
- 
+    let delayedPriceTime: Int?
+    let extendedPrice: Float?
+    let extended
