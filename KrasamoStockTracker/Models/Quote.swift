@@ -31,4 +31,6 @@ struct Quote: Decodable {
     let delayedPrice: Float?
     let delayedPriceTime: Int?
     let extendedPrice: Float?
-    let extended
+    let extendedChange: Float?
+    let extendedChangePercent: Float?
+    let exten
