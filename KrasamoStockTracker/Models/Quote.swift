@@ -42,4 +42,8 @@ struct Quote: Decodable {
     let avgTotalVolume: Int?
     let iexBidPrice: Float?
     let iexBidSize: Float?
-    let iexAskPrice: Fl
+    let iexAskPrice: Float?
+    let iexAskSize: Int?
+    let marketCap: Float?
+    let peRatio: Float?
+    
