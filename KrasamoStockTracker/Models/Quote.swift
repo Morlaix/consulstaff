@@ -46,4 +46,7 @@ struct Quote: Decodable {
     let iexAskSize: Int?
     let marketCap: Float?
     let peRatio: Float?
-    
+    let week52High: Float?
+    let week52Low: Float?
+    let ytdChange: Float?
+}
