@@ -36,4 +36,7 @@ struct Quote: Decodable {
     let extendedPriceTime: Int?
     let previousClose: Float?
     let change: Float?
-    let changePerc
+    let changePercent: Float?
+    let iexMarketPercent: Float?
+    let iexVolume: Int?
+    let avgTotalVolume: Int
