@@ -39,4 +39,7 @@ struct Quote: Decodable {
     let changePercent: Float?
     let iexMarketPercent: Float?
     let iexVolume: Int?
-    let avgTotalVolume: Int
+    let avgTotalVolume: Int?
+    let iexBidPrice: Float?
+    let iexBidSize: Float?
+    let iexAskPrice: Fl
