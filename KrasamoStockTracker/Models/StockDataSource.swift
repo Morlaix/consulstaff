@@ -6,4 +6,8 @@
 //  Copyright © 2019 Rays Industrial Computers. All rights reserved.
 //
 
-impo
+import UIKit
+
+class StockDataSource: NSObject, UITableViewDataSource {
+    
+   
