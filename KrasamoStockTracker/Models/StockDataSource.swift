@@ -12,3 +12,7 @@ class StockDataSource: NSObject, UITableViewDataSource {
     
     let CELL_REUSE_IDENTIFIER = "stockCell"
     let USER_DEFAULT_KEY      = "stockUserDefaultsArray"
+    
+    var stockQuotes: [Quote] = [] {
+        didSet {
+            stockQu
