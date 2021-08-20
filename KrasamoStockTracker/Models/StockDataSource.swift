@@ -17,4 +17,9 @@ class StockDataSource: NSObject, UITableViewDataSource {
         didSet {
             stockQuotes = stockQuotes.sorted(by: { $0.symbol! < $1.symbol! })
             let stockSymbols = stockQuotes.map({ return $0.symbol })
-            UserDefaults.standard.set(stockSy
+            UserDefaults.standard.set(stockSymbols, forKey: USER_DEFAULT_KEY)
+        }
+    }
+    
+    func addStockQuote(_ quote: Quote) {
+      
