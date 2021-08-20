@@ -40,4 +40,5 @@ class StockDataSource: NSObject, UITableViewDataSource {
         return false
     }
     
-    func tableView(_ tableVi
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return stockQuotes
