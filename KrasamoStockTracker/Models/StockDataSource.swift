@@ -34,4 +34,10 @@ class StockDataSource: NSObject, UITableViewDataSource {
             for symbol in stockArray as! [String] {
                 if symbol.uppercased() == stockSymbol.uppercased() {
                     return true
-           
+                }
+            }
+        }
+        return false
+    }
+    
+    func tableView(_ tableVi
