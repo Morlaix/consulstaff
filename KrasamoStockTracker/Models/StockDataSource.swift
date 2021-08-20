@@ -30,4 +30,6 @@ class StockDataSource: NSObject, UITableViewDataSource {
     }
     
     func checkIfDuplicatedSymbol(_ stockSymbol: String) -> Bool {
-        if let stockArray = UserDefaults.standard.array(forKey: USER_DEFAULT_KE
+        if let stockArray = UserDefaults.standard.array(forKey: USER_DEFAULT_KEY) {
+            for symbol in stockArray as! [String] {
+                if symbol
