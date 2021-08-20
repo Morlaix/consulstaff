@@ -44,4 +44,5 @@ class StockDataSource: NSObject, UITableViewDataSource {
         return stockQuotes.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRo
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableVi
