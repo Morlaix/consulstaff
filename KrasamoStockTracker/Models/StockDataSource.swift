@@ -29,4 +29,5 @@ class StockDataSource: NSObject, UITableViewDataSource {
         stockQuotes.removeAll()
     }
     
-    func checkIfDuplicatedSymbol(_ stockSymbol: Strin
+    func checkIfDuplicatedSymbol(_ stockSymbol: String) -> Bool {
+        if let stockArray = UserDefaults.standard.array(forKey: USER_DEFAULT_KE
