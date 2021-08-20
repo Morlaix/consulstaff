@@ -26,4 +26,7 @@ class StockDataSource: NSObject, UITableViewDataSource {
     }
     
     func removeAllStockQuotes() {
-        stockQuot
+        stockQuotes.removeAll()
+    }
+    
+    func checkIfDuplicatedSymbol(_ stockSymbol: Strin
