@@ -22,4 +22,8 @@ class StockDataSource: NSObject, UITableViewDataSource {
     }
     
     func addStockQuote(_ quote: Quote) {
-      
+        stockQuotes.append(quote)
+    }
+    
+    func removeAllStockQuotes() {
+        stockQuot
