@@ -48,4 +48,5 @@ class StockDataSource: NSObject, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: CELL_REUSE_IDENTIFIER, for: indexPath) as! StockCell
         
         cell.stockSymbol.text = stockQuotes[indexPath.row].symbol
-        cell.maximumStoc
+        cell.maximumStockPrice.text = "\(stockQuotes[indexPath.row].high ?? 0.0)"
+        cell.minimumStockPric
