@@ -46,4 +46,6 @@ class StockDataSource: NSObject, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CELL_REUSE_IDENTIFIER, for: indexPath) as! StockCell
-   
+        
+        cell.stockSymbol.text = stockQuotes[indexPath.row].symbol
+        cell.maximumStoc
