@@ -15,4 +15,6 @@ class IEXClient {
         func sendError(_ error: String) {
             print(error)
             let userInfo = [NSLocalizedDescriptionKey: error]
-         
+            completion(nil, NSError(domain: "getQuote", code: 1, userInfo: userInfo))
+        }
+  
