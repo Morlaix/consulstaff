@@ -13,4 +13,6 @@ class IEXClient {
     func getQuote(ForSymbol symbol: String, completion: @escaping(_ quote: Quote?, _ error: Error?) -> Void) {
         
         func sendError(_ error: String) {
-            prin
+            print(error)
+            let userInfo = [NSLocalizedDescriptionKey: error]
+         
