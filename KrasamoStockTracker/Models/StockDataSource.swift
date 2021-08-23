@@ -49,4 +49,5 @@ class StockDataSource: NSObject, UITableViewDataSource {
         
         cell.stockSymbol.text = stockQuotes[indexPath.row].symbol
         cell.maximumStockPrice.text = "\(stockQuotes[indexPath.row].high ?? 0.0)"
-        cell.minimumStockPric
+        cell.minimumStockPrice.text = "\(stockQuotes[indexPath.row].low ?? 0.0)"
+        cell.currentSt
