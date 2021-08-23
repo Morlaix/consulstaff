@@ -17,4 +17,5 @@ class IEXClient {
             let userInfo = [NSLocalizedDescriptionKey: error]
             completion(nil, NSError(domain: "getQuote", code: 1, userInfo: userInfo))
         }
-  
+        
+        let request = [IEXConstants.IEXRequest.Stock, "/\(symbol.lowercased()
