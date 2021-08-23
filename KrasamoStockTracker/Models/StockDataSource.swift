@@ -52,4 +52,8 @@ class StockDataSource: NSObject, UITableViewDataSource {
         cell.minimumStockPrice.text = "\(stockQuotes[indexPath.row].low ?? 0.0)"
         cell.currentStockPrice.text = "\(stockQuotes[indexPath.row].latestPrice ?? 0.0)"
         
-     
+        return cell
+    }
+    
+
+}
