@@ -10,4 +10,4 @@ import Foundation
 
 class IEXClient {
     
-    func getQuote(For
+    func getQuote(ForSymbol symbol: String, completion: @escaping(_ quote: Quote?, _ error: Error?) 
