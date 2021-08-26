@@ -20,4 +20,6 @@ class IEXClient {
         
         let request = [IEXConstants.IEXRequest.Stock, "/\(symbol.lowercased())", IEXConstants.IEXRequest.Quote]
         
-        guard let url = iexUrlWith
+        guard let url = iexUrlWithUrlRequests(request) else {
+            sendError("Invalid URL")
+            re
