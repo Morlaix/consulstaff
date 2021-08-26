@@ -27,4 +27,5 @@ class IEXClient {
         
         let urlTask = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard error == nil else {
-                sendError("Could n
+                sendError("Could not complete request. Check internet connection and try again.")
+        
