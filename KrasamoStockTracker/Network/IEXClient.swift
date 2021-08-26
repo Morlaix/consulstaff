@@ -22,4 +22,7 @@ class IEXClient {
         
         guard let url = iexUrlWithUrlRequests(request) else {
             sendError("Invalid URL")
-            re
+            return
+        }
+        
+        let urlTask = URLSession.shared.dataTask(with: url) { (data, respons
