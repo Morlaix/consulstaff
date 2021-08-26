@@ -25,4 +25,6 @@ class IEXClient {
             return
         }
         
-        let urlTask = URLSession.shared.dataTask(with: url) { (data, respons
+        let urlTask = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard error == nil else {
+                sendError("Could n
