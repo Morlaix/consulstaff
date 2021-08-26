@@ -18,4 +18,6 @@ class IEXClient {
             completion(nil, NSError(domain: "getQuote", code: 1, userInfo: userInfo))
         }
         
-        let request = [IEXConstants.IEXRequest.Stock, "/\(symbol.lowercased()
+        let request = [IEXConstants.IEXRequest.Stock, "/\(symbol.lowercased())", IEXConstants.IEXRequest.Quote]
+        
+        guard let url = iexUrlWith
