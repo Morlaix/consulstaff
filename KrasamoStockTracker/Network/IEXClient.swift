@@ -42,4 +42,5 @@ class IEXClient {
             }
             
             self.convertData(data, completion: { (result, error) in
-                gu
+                guard error == nil else {
+                    sendError("Error converting stock da
