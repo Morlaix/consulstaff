@@ -38,4 +38,7 @@ class IEXClient {
             
             guard let data = data else {
                 sendError("No stock data found.")
- 
+                return
+            }
+            
+            self.conver
