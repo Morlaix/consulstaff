@@ -41,4 +41,5 @@ class IEXClient {
                 return
             }
             
-            self.conver
+            self.convertData(data, completion: { (result, error) in
+                gu
