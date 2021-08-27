@@ -36,4 +36,6 @@ class IEXClient {
                 return
             }
             
-       
+            guard let data = data else {
+                sendError("No stock data found.")
+ 
