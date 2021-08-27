@@ -31,4 +31,4 @@ class IEXClient {
                 return
             }
             
-            guard let statusCode
+            guard let statusCode = (response as? HTTPURLResponse)?.statusCode, statusCode >= 200 && status
