@@ -43,4 +43,7 @@ class IEXClient {
             
             self.convertData(data, completion: { (result, error) in
                 guard error == nil else {
-                    sendError("Error converting stock da
+                    sendError("Error converting stock data into readable format.")
+                    return
+                }
+     
