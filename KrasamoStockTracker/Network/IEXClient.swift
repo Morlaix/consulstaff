@@ -32,4 +32,8 @@ class IEXClient {
             }
             
             guard let statusCode = (response as? HTTPURLResponse)?.statusCode, statusCode >= 200 && statusCode <= 299 else {
-                sendError("No company sy
+                sendError("No company symbol found.")
+                return
+            }
+            
+       
