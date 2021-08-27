@@ -46,4 +46,6 @@ class IEXClient {
                     sendError("Error converting stock data into readable format.")
                     return
                 }
-     
+                
+                guard let quote = result  else {
+        
