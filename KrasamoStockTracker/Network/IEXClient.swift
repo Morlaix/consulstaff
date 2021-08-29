@@ -52,4 +52,10 @@ class IEXClient {
                     return
                 }
                 
-                co
+                completion(quote, nil)
+            })
+        }
+        
+        urlTask.resume()
+    }
+  
