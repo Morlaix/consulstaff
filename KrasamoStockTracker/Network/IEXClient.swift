@@ -58,4 +58,5 @@ class IEXClient {
         
         urlTask.resume()
     }
-  
+    
+    func convertData(_ data: Data, completion: (_ result: Quote?, _ error: NS
