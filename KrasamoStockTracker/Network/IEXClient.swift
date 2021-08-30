@@ -67,4 +67,5 @@ class IEXClient {
             let decoder = JSONDecoder()
             quote = try decoder.decode(Quote.self, from: data)
         } catch {
-            let userInfo = [NSLocalizedDescription
+            let userInfo = [NSLocalizedDescriptionKey: "Could not parse the data into encodable format"]
+            com
