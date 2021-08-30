@@ -64,4 +64,5 @@ class IEXClient {
         var quote: Quote
         
         do {
-            let dec
+            let decoder = JSONDecoder()
+            quote = try decoder.decode(Quote.self, from: dat
