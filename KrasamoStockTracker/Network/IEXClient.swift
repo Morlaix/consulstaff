@@ -65,4 +65,6 @@ class IEXClient {
         
         do {
             let decoder = JSONDecoder()
-            quote = try decoder.decode(Quote.self, from: dat
+            quote = try decoder.decode(Quote.self, from: data)
+        } catch {
+            let userInfo = [NSLocalizedDescription
