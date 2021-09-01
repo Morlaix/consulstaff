@@ -68,4 +68,5 @@ class IEXClient {
             quote = try decoder.decode(Quote.self, from: data)
         } catch {
             let userInfo = [NSLocalizedDescriptionKey: "Could not parse the data into encodable format"]
-            com
+            completion(nil, NSError(domain: "convertData", code: 1, userInfo: userInfo))
+        
