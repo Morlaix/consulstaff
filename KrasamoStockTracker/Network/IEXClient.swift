@@ -73,4 +73,6 @@ class IEXClient {
         }
         
         completion(quote, nil)
- 
+    }
+    
+    func iexUrlWithUrlRequests(_ requests: [String]) -> URL? {
