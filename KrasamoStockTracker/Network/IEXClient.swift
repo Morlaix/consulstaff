@@ -83,4 +83,7 @@ class IEXClient {
         
         for request in requests {
             components.path.append(request)
- 
+        }
+        
+        guard let url = components.url else {
+     
