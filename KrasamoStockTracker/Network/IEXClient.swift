@@ -79,4 +79,8 @@ class IEXClient {
         var components = URLComponents()
         components.scheme = IEXConstants.IEXURLComponents.ApiScheme
         components.host = IEXConstants.IEXURLComponents.ApiHost
-        components.path = IEXConstants.IEXURLComponen
+        components.path = IEXConstants.IEXURLComponents.ApiPath
+        
+        for request in requests {
+            components.path.append(request)
+ 
