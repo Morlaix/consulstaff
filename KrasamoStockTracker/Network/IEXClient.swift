@@ -77,4 +77,5 @@ class IEXClient {
     
     func iexUrlWithUrlRequests(_ requests: [String]) -> URL? {
         var components = URLComponents()
-        components.scheme = IEXConstants.IEXUR
+        components.scheme = IEXConstants.IEXURLComponents.ApiScheme
+        components.host = IEXConstants.IEXURLCom
