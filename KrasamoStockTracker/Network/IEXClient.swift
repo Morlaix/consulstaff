@@ -86,4 +86,9 @@ class IEXClient {
         }
         
         guard let url = components.url else {
-     
+            return nil
+        }
+        
+        return url
+    }
+}
