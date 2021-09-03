@@ -8,4 +8,7 @@
 
 import Foundation
 
-class IEXConst
+class IEXConstants {
+    
+    struct IEXURLComponents {
+        static let ApiScheme    = "https"
