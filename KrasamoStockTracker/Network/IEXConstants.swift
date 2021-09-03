@@ -12,3 +12,5 @@ class IEXConstants {
     
     struct IEXURLComponents {
         static let ApiScheme    = "https"
+        static let ApiHost      = "api.iextrading.com"
+        static let Api
