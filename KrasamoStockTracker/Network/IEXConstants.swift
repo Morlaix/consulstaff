@@ -17,4 +17,7 @@ class IEXConstants {
     }
     
     struct IEXRequest {
-        static let Stock  
+        static let Stock        = "/stock"
+        static let Quote        = "/quote"
+    }
+}
