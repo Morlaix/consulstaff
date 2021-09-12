@@ -13,4 +13,4 @@
         <!--My Stocks-->
         <scene sceneID="LgC-Gz-8fs">
             <objects>
-                <viewController id="LCn-cc-Sap" cus
+                <viewController id="LCn-cc-Sap" customClass="StockViewController" customModule="KrasamoStockTracker" customModuleProvider="t
