@@ -17,4 +17,5 @@
                     <view key="view" contentMode="scaleToFill" id="CqG-2W-9hu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-           
+                        <subviews>
+                            <tableView clipsSubview
