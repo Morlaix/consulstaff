@@ -14,4 +14,5 @@
         <scene sceneID="LgC-Gz-8fs">
             <objects>
                 <viewController id="LCn-cc-Sap" customClass="StockViewController" customModule="KrasamoStockTracker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMod
+                    <view key="view" contentMode="scaleToFill" id="CqG-2W-9hu">
+                        <rect key="frame
