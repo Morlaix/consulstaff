@@ -23,4 +23,5 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="stockCell" id="0cU-LT-kBw" customClass="StockCell" customModule="KrasamoStockTracker" customModuleProvider="target">
-                                        <rect key="frame"
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                
