@@ -40,4 +40,5 @@
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="AAAA">
                                                                             <attributes>
-                                                     
+                                                                                <font key="NSFont" metaFont="system" size="14"/>
+              
