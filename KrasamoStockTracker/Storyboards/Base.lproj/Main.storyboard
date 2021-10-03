@@ -50,4 +50,5 @@
                                                                     <rect key="frame" x="80.5" y="0.0" width="80" height="14"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="000.00">
-                                                                            <attribu
+                                                                            <attributes>
+                                                                                <f
