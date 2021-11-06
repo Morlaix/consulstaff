@@ -60,4 +60,5 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hyI-Ow-nUv">
-                                                            <rect key="frame" x="176.5" y="0.0
+                                                            <rect key="frame" x="176.5" y="0.0" width="160.5" height="14"/>
+                                                    
