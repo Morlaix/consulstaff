@@ -65,4 +65,4 @@
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="f4S-jq-hnD" userLabel="Market High">
                                                                     <rect key="frame" x="0.0" y="0.0" width="76.5" height="14"/>
                                                                     <subviews>
-                                                                        <imageView userInteractionEnabled="NO" cont
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggi
