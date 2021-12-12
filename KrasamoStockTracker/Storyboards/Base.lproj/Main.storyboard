@@ -68,4 +68,5 @@
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Up Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="JnK-r8-wgi">
                                                                             <rect key="frame" x="0.0" y="0.0" width="9" height="14"/>
                                                                             <constraints>
-                                                                                <constraint 
+                                                                                <constraint firstAttribute="height" constant="14" id="0yp-ba-ihs"/>
+                  
