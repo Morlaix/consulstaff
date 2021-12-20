@@ -69,4 +69,5 @@
                                                                             <rect key="frame" x="0.0" y="0.0" width="9" height="14"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="14" id="0yp-ba-ihs"/>
-                                                                                <constraint fir
+                                                                                <constraint firstAttribute="width" constant="9" id="TzT-bo-WaW"/>
+                 
