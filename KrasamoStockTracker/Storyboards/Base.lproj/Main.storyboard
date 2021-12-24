@@ -72,4 +72,4 @@
                                                                                 <constraint firstAttribute="width" constant="9" id="TzT-bo-WaW"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userI
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" v
