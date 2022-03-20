@@ -77,4 +77,5 @@
                                                                             <attributedString key="attributedText">
                                                                                 <fragment content="000.00">
                                                                                     <attributes>
-                                                                                        <font key="NSFont" me
+                                                                                        <font key="NSFont" metaFont="system" size="14"/>
+                                   
