@@ -86,4 +86,5 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="QXD-cj-O6t" userLabel="Market Low">
-                                                                    <rect key="frame" x="84.5" y="0.0" width="76" height
+                                                                    <rect key="frame" x="84.5" y="0.0" width="76" height="14"/>
+                                                                    <sub
