@@ -92,4 +92,5 @@
                                                                             <rect key="frame" x="0.0" y="0.0" width="9" height="14"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="14" id="Xvl-P3-Lnp"/>
-                                                                                <constr
+                                                                                <constraint firstAttribute="width" constant="9" id="pU3-gW-ZIo"/>
+                           
