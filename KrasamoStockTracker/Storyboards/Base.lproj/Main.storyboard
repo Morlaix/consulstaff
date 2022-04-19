@@ -95,4 +95,4 @@
                                                                                 <constraint firstAttribute="width" constant="9" id="pU3-gW-ZIo"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInte
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalH
