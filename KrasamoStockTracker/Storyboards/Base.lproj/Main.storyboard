@@ -100,4 +100,5 @@
                                                                             <attributedString key="attributedText">
                                                                                 <fragment content="000.00">
                                                                                     <attributes>
-                                                                                        <font key=
+                                                                                        <font key="NSFont" metaFont="system" size="14"/>
+                                             
