@@ -107,4 +107,5 @@
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
-                         
+                                                                </stackView>
+                                         
