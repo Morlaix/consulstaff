@@ -121,4 +121,5 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <o
+                                            <outlet property="currentStockPrice" destination="1GA-9b-UpK" id="ebf-at-nbh"/>
+      
