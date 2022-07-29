@@ -122,4 +122,4 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="currentStockPrice" destination="1GA-9b-UpK" id="ebf-at-nbh"/>
-      
+                                            <outlet property="maximumStockPrice" destination="gHa-DN-2jw"
