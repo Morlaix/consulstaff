@@ -125,4 +125,6 @@
                                             <outlet property="maximumStockPrice" destination="gHa-DN-2jw" id="6Or-UM-MoB"/>
                                             <outlet property="minimumStockPrice" destination="Gwp-MW-qFj" id="O59-im-ql9"/>
                                             <outlet property="stockSymbol" destination="yAl-ms-03j" id="DHi-vg-Vmy"/>
-                                        </c
+                                        </connections>
+                                    </tableViewCell>
+                
