@@ -124,4 +124,4 @@
                                             <outlet property="currentStockPrice" destination="1GA-9b-UpK" id="ebf-at-nbh"/>
                                             <outlet property="maximumStockPrice" destination="gHa-DN-2jw" id="6Or-UM-MoB"/>
                                             <outlet property="minimumStockPrice" destination="Gwp-MW-qFj" id="O59-im-ql9"/>
-               
+                                            <outlet property="stockSymbol" destination="
