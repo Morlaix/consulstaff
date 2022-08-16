@@ -127,4 +127,5 @@
                                             <outlet property="stockSymbol" destination="yAl-ms-03j" id="DHi-vg-Vmy"/>
                                         </connections>
                                     </tableViewCell>
-                
+                                </prototypes>
+                            </tableView>
