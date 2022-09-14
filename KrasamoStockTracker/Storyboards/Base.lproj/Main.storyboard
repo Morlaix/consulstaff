@@ -134,4 +134,5 @@
                                 <connections>
                                     <action selector="dismissStockSymbolPopup:" destination="LCn-cc-Sap" eventType="touchUpInside" id="Htw-th-DTs"/>
                                 </connections>
-                       
+                            </button>
+                            <view alpha="0.0" contentMode="scal
