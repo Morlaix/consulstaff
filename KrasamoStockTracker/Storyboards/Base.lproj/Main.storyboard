@@ -138,4 +138,4 @@
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sL0-eH-k7s" userLabel="New Stock Symbol Popup">
                                 <rect key="frame" x="72.5" y="186.5" width="230" height="230"/>
                                 <subviews>
-                                    <stackView opaque="NO" cont
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutor
