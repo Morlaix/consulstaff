@@ -139,4 +139,5 @@
                                 <rect key="frame" x="72.5" y="186.5" width="230" height="230"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Nze-hj-YwO">
-                                        <r
+                                        <rect key="frame" x="30" y="24" width="170" height="70"/>
+                                        <
