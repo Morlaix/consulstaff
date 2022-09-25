@@ -143,4 +143,5 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Stock Symbol" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N50-OA-YFX">
                                                 <rect key="frame" x="3" y="0.0" width="164" height="24"/>
-                                                <fontDescripti
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                      
