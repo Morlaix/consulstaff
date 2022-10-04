@@ -150,4 +150,5 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QUg-rb-MyI">
                                                 <rect key="frame" x="0.0" y="40" width="170" height="30"/>
                                                 <nil key="textColor"/>
-                                                <fontD
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            
