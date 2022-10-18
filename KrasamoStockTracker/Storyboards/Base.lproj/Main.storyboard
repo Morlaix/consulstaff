@@ -159,4 +159,4 @@
                                             <constraint firstItem="QUg-rb-MyI" firstAttribute="leading" secondItem="Nze-hj-YwO" secondAttribute="leading" id="Z0q-HO-jGf"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" 
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="m
