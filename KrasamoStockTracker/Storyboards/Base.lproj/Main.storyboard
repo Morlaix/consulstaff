@@ -163,4 +163,5 @@
                                         <rect key="frame" x="72" y="148" width="86" height="34"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="great
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="tj9-Ah-3wq"/>
+                               
