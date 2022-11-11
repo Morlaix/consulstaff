@@ -173,4 +173,5 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="8"/>
-                                            </userDefin
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefin
