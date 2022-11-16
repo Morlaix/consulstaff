@@ -176,4 +176,5 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="addStockTracker:" destinati
+                                            <action selector="addStockTracker:" destination="LCn-cc-Sap" eventType="touchUpInside" id="X2Y-80-p6z"/>
+                                    
