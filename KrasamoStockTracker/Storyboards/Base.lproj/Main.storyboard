@@ -179,4 +179,5 @@
                                             <action selector="addStockTracker:" destination="LCn-cc-Sap" eventType="touchUpInside" id="X2Y-80-p6z"/>
                                         </connections>
                                     </button>
-                    
+                                </subviews>
+                                <color key="backgroundColor
