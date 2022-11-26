@@ -185,4 +185,4 @@
                                     <constraint firstItem="Nze-hj-YwO" firstAttribute="leading" secondItem="sL0-eH-k7s" secondAttribute="leading" constant="30" id="AsB-Dq-jK3"/>
                                     <constraint firstItem="Nze-hj-YwO" firstAttribute="centerX" secondItem="sL0-eH-k7s" secondAttribute="centerX" id="MWN-t7-uvh"/>
                                     <constraint firstAttribute="width" constant="230" id="PCm-6Q-0UA"/>
-               
+                                    <constraint firstAttribute="trailing" secondItem="Nze-hj-YwO" secon
