@@ -187,4 +187,5 @@
                                     <constraint firstAttribute="width" constant="230" id="PCm-6Q-0UA"/>
                                     <constraint firstAttribute="trailing" secondItem="Nze-hj-YwO" secondAttribute="trailing" constant="30" id="YkE-Br-RcV"/>
                                     <constraint firstAttribute="bottom" secondItem="8qH-Qi-JHC" secondAttribute="bottom" constant="48" id="a2g-V9-V9B"/>
-                                    <constraint first
+                                    <constraint firstAttribute="height" constant="230" id="gPz-UH-dTa"/>
+                             
