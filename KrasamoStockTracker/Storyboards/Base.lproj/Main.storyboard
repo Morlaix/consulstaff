@@ -188,4 +188,4 @@
                                     <constraint firstAttribute="trailing" secondItem="Nze-hj-YwO" secondAttribute="trailing" constant="30" id="YkE-Br-RcV"/>
                                     <constraint firstAttribute="bottom" secondItem="8qH-Qi-JHC" secondAttribute="bottom" constant="48" id="a2g-V9-V9B"/>
                                     <constraint firstAttribute="height" constant="230" id="gPz-UH-dTa"/>
-                             
+                                    <constraint firstItem="Nze-hj-YwO" firstAttribute="top" secondItem="sL0-eH-k7s" secondAttr
