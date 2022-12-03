@@ -189,4 +189,5 @@
                                     <constraint firstAttribute="bottom" secondItem="8qH-Qi-JHC" secondAttribute="bottom" constant="48" id="a2g-V9-V9B"/>
                                     <constraint firstAttribute="height" constant="230" id="gPz-UH-dTa"/>
                                     <constraint firstItem="Nze-hj-YwO" firstAttribute="top" secondItem="sL0-eH-k7s" secondAttribute="top" constant="24" id="n4e-id-tY3"/>
-                                    <constraint firstItem="8qH-Qi-JHC" firstAttribute="centerX" secondItem="sL0-e
+                                    <constraint firstItem="8qH-Qi-JHC" firstAttribute="centerX" secondItem="sL0-eH-k7s" secondAttribute="centerX" id="o0G-gt-7zV"/>
+                                </const
