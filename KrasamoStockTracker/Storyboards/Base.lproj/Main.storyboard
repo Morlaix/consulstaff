@@ -193,4 +193,5 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integ
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeA
