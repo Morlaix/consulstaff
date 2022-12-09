@@ -197,4 +197,4 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <activityIn
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHugg
