@@ -199,4 +199,6 @@
                             </view>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="pLk-dl-Oyu">
                                 <rect key="frame" x="169" y="283" width="37" height="37"/>
-      
+                            </activityIndicatorView>
+                        </subviews>
+               
