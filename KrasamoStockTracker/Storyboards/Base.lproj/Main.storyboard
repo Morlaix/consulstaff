@@ -202,4 +202,5 @@
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-               
+                        <constraints>
+                            <constraint firstItem="V6S-SG-vPK" first
