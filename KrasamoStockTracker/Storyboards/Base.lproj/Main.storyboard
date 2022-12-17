@@ -204,4 +204,5 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="V6S-SG-vPK" firstAttribute="leading" secondItem="lOY-tf-MmA" secondAttribute="leading" id="3rC-bl-ssi"/>
-                            <constraint firstItem="pLk-dl-Oyu" firstAttribute="cente
+                            <constraint firstItem="pLk-dl-Oyu" firstAttribute="centerY" secondItem="CqG-2W-9hu" secondAttribute="centerY" id="7SC-Fg-lW5"/>
+                            <cons
