@@ -206,4 +206,4 @@
                             <constraint firstItem="V6S-SG-vPK" firstAttribute="leading" secondItem="lOY-tf-MmA" secondAttribute="leading" id="3rC-bl-ssi"/>
                             <constraint firstItem="pLk-dl-Oyu" firstAttribute="centerY" secondItem="CqG-2W-9hu" secondAttribute="centerY" id="7SC-Fg-lW5"/>
                             <constraint firstItem="V6S-SG-vPK" firstAttribute="top" secondItem="lOY-tf-MmA" secondAttribute="top" id="7jp-5g-ajH"/>
-                            <constraint firstItem="vQt-tQ-wP
+                            <constraint firstItem="vQt-tQ-wPn" firstAttribute="leading" secondItem="lOY-tf-MmA" secondAttribute="leading
