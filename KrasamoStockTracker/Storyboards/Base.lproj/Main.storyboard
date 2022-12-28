@@ -212,4 +212,4 @@
                             <constraint firstItem="lOY-tf-MmA" firstAttribute="bottom" secondItem="vQt-tQ-wPn" secondAttribute="bottom" id="X5X-l5-jVd"/>
                             <constraint firstItem="sL0-eH-k7s" firstAttribute="centerX" secondItem="CqG-2W-9hu" secondAttribute="centerX" id="XjG-Wn-hPf"/>
                             <constraint firstItem="sL0-eH-k7s" firstAttribute="centerY" secondItem="CqG-2W-9hu" secondAttribute="centerY" id="YCH-zK-A4j"/>
-                   
+                            <constraint firstItem="lOY-tf-MmA" firstAttribute="trailing" secondItem="V6S-SG-vP
