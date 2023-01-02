@@ -217,4 +217,5 @@
                             <constraint firstItem="vQt-tQ-wPn" firstAttribute="top" secondItem="lOY-tf-MmA" secondAttribute="top" constant="16" id="oD3-tc-JiY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lOY-tf-MmA"/>
-  
+                    </view>
+                    <navigationItem ke
