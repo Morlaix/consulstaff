@@ -219,4 +219,5 @@
                         <viewLayoutGuide key="safeArea" id="lOY-tf-MmA"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Stocks" id="gfn-U4-WaY">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="Plus Symbol" id="AUn-6t-WU
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="Plus Symbol" id="AUn-6t-WUV">
+                            <color key="tintColor" white="1" alpha="1" colorSpace=
