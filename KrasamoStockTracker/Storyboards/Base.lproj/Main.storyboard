@@ -225,4 +225,6 @@
                                 <action selector="showStockSymbolPopup:" destination="LCn-cc-Sap" id="eh9-va-2Of"/>
                             </connections>
                         </barButtonItem>
-                    </
+                    </navigationItem>
+                    <connections>
+                        
