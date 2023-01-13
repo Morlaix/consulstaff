@@ -229,4 +229,5 @@
                     <connections>
                         <outlet property="activityIndicator" destination="pLk-dl-Oyu" id="ek1-wK-nnB"/>
                         <outlet property="dismissPopupButton" destination="V6S-SG-vPK" id="lAf-j5-j70"/>
-                        <outlet property="stockPopupLabel" destinat
+                        <outlet property="stockPopupLabel" destination="N50-OA-YFX" id="QtT-dB-TBV"/>
+                        <outlet property="stockPo
