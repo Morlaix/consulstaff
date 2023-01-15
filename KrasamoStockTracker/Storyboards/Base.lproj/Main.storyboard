@@ -231,4 +231,5 @@
                         <outlet property="dismissPopupButton" destination="V6S-SG-vPK" id="lAf-j5-j70"/>
                         <outlet property="stockPopupLabel" destination="N50-OA-YFX" id="QtT-dB-TBV"/>
                         <outlet property="stockPopupOkButton" destination="8qH-Qi-JHC" id="ady-NZ-0c5"/>
-                        <outlet proper
+                        <outlet property="stockPopupTextField" destination="QUg-rb-MyI" id="fYB-BC-dAO"/>
+                        <ou
