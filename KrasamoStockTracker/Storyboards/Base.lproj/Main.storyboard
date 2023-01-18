@@ -236,4 +236,5 @@
                         <outlet property="stockTableView" destination="vQt-tQ-wPn" id="eI1-09-Afe"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" i
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXe-6N-LUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+  
