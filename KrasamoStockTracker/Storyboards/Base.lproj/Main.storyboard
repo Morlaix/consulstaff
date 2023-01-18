@@ -235,4 +235,5 @@
                         <outlet property="stockSymbolPopupView" destination="sL0-eH-k7s" id="kvG-Xg-LbV"/>
                         <outlet property="stockTableView" destination="vQt-tQ-wPn" id="eI1-09-Afe"/>
                     </connections>
-                </vi
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" i
