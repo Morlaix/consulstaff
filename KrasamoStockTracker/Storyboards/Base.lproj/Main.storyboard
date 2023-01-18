@@ -233,4 +233,6 @@
                         <outlet property="stockPopupOkButton" destination="8qH-Qi-JHC" id="ady-NZ-0c5"/>
                         <outlet property="stockPopupTextField" destination="QUg-rb-MyI" id="fYB-BC-dAO"/>
                         <outlet property="stockSymbolPopupView" destination="sL0-eH-k7s" id="kvG-Xg-LbV"/>
-                        <outlet property="stockTableView" destination="vQt-t
+                        <outlet property="stockTableView" destination="vQt-tQ-wPn" id="eI1-09-Afe"/>
+                    </connections>
+                </vi
