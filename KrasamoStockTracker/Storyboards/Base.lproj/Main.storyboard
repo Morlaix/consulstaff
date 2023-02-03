@@ -241,4 +241,6 @@
             <point key="canvasLocation" x="1241" y="72"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="buS-YX-1XB"
+        <scene sceneID="buS-YX-1XB">
+            <objects>
+                <navigationController automaticallyAdjus
