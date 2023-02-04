@@ -244,4 +244,5 @@
         <scene sceneID="buS-YX-1XB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hoo-7E-1b5" sceneMemberID="viewController">
-                    <toolbar
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill
