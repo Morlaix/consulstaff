@@ -245,4 +245,5 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hoo-7E-1b5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Yo8-ir-uxT
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Yo8-ir-uxT">
+                        <rect key="frame" x="0.0" y="20" width="375" height
