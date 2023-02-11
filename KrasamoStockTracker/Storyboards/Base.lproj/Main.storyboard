@@ -250,4 +250,5 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-    
+                    <connections>
+                        <segue destination="LCn-cc-Sap
