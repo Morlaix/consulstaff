@@ -251,4 +251,5 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="LCn-cc-Sap
+                        <segue destination="LCn-cc-Sap" kind="relationship" relationship="rootViewController" id="5sv-cp-ImS"/>
+      
