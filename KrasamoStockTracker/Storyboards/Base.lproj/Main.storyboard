@@ -262,4 +262,6 @@
     <resources>
         <image name="Down Arrow" width="18" height="30"/>
         <image name="Plus Symbol" width="75" height="75"/>
-        <image 
+        <image name="Up Arrow" width="18" height="30"/>
+    </resources>
+</document>
