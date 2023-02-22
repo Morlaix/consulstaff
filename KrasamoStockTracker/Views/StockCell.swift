@@ -13,4 +13,7 @@ class StockCell: UITableViewCell {
     @IBOutlet weak var stockSymbol: UILabel!
     @IBOutlet weak var currentStockPrice: UILabel!
     @IBOutlet weak var maximumStockPrice: UILabel!
-    @IBOutlet weak var 
+    @IBOutlet weak var minimumStockPrice: UILabel!
+    
+    override func awakeFromNib() {
+        sup
