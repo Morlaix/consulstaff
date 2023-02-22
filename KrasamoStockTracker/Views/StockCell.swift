@@ -12,4 +12,5 @@ class StockCell: UITableViewCell {
 
     @IBOutlet weak var stockSymbol: UILabel!
     @IBOutlet weak var currentStockPrice: UILabel!
-    @IB
+    @IBOutlet weak var maximumStockPrice: UILabel!
+    @IBOutlet weak var 
