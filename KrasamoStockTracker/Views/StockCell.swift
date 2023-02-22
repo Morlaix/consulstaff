@@ -10,4 +10,6 @@ import UIKit
 
 class StockCell: UITableViewCell {
 
-    @IBOutlet weak var st
+    @IBOutlet weak var stockSymbol: UILabel!
+    @IBOutlet weak var currentStockPrice: UILabel!
+    @IB
