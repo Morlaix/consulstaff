@@ -16,4 +16,7 @@ class StockCell: UITableViewCell {
     @IBOutlet weak var minimumStockPrice: UILabel!
     
     override func awakeFromNib() {
-        sup
+        super.awakeFromNib()
+        
+        let fontSize: CGFloat = 14.0
+        let fontColor = U
