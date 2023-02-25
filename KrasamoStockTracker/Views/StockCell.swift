@@ -25,4 +25,6 @@ class StockCell: UITableViewCell {
         stockSymbol.textColor = fontColor
         
         currentStockPrice.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
-    
+        currentStockPrice.textColor = fontColor
+        
+        maximumStockPrice.font = UIFont.sys
