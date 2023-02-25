@@ -19,4 +19,6 @@ class StockCell: UITableViewCell {
         super.awakeFromNib()
         
         let fontSize: CGFloat = 14.0
-        let fontColor = U
+        let fontColor = UIColor.white
+        
+        stockSymbol.font = UIFont.systemFont(ofSize
