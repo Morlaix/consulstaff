@@ -24,4 +24,5 @@ class StockCell: UITableViewCell {
         stockSymbol.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         stockSymbol.textColor = fontColor
         
-      
+        currentStockPrice.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
+    
