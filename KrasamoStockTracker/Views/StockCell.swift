@@ -21,4 +21,7 @@ class StockCell: UITableViewCell {
         let fontSize: CGFloat = 14.0
         let fontColor = UIColor.white
         
-        stockSymbol.font = UIFont.systemFont(ofSize
+        stockSymbol.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
+        stockSymbol.textColor = fontColor
+        
+      
