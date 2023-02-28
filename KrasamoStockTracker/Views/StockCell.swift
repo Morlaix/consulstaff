@@ -30,4 +30,7 @@ class StockCell: UITableViewCell {
         maximumStockPrice.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         maximumStockPrice.textColor = fontColor
         
-        minimumStockPrice.font = UIFont.systemFont(ofSize: fontSize, weight:
+        minimumStockPrice.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
+        minimumStockPrice.textColor = fontColor
+        
+        separato
