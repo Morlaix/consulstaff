@@ -33,4 +33,7 @@ class StockCell: UITableViewCell {
         minimumStockPrice.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         minimumStockPrice.textColor = fontColor
         
-        separato
+        separatorInset.left = 16
+        separatorInset.right = 16
+        
+        self.backg
