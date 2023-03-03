@@ -51,3 +51,73 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B80E603220A33310088E8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80E617220A33330088E8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B80E5FD220A33310088E8A7 = {
+			isa = PBXGroup;
+			children = (
+				4B80E608220A33310088E8A7 /* KrasamoStockTracker */,
+				4B80E61D220A33330088E8A7 /* KrasamoStockTrackerTests */,
+				4B80E607220A33310088E8A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B80E607220A33310088E8A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B80E606220A33310088E8A7 /* KrasamoStockTracker.app */,
+				4B80E61A220A33330088E8A7 /* KrasamoStockTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B80E608220A33310088E8A7 /* KrasamoStockTracker */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2415D220BB4B30052FD39 /* Storyboards */,
+				4B80E636220A6B7C0088E8A7 /* Models */,
+				4B80E63F220AECEB0088E8A7 /* Views */,
+				4BD2415C220BB47F0052FD39 /* Controllers */,
+				4B80E62D220A60CC0088E8A7 /* Network */,
+				4B80E609220A33310088E8A7 /* AppDelegate.swift */,
+				4B80E610220A33320088E8A7 /* Assets.xcassets */,
+				4B80E615220A33320088E8A7 /* Info.plist */,
+			);
+			path = KrasamoStockTracker;
+			sourceTree = "<group>";
+		};
+		4B80E61D220A33330088E8A7 /* KrasamoStockTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B80E61E220A33330088E8A7 /* KrasamoStockTrackerTests.swift */,
+				4B80E620220A33330088E8A7 /* Info.plist */,
+			);
+			path = KrasamoStockTrackerTests;
+			sourceTree = "<group>";
+		};
+		4B80E62D220A60CC0088E8A7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4B80E63B220A6E100088E8A7 /* IEXClient.swift */,
+				4B80E632220A6A090088E8A7 /* IEXConstants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4B80E636220A6B7C0088E8A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
