@@ -36,4 +36,7 @@ class StockCell: UITableViewCell {
         separatorInset.left = 16
         separatorInset.right = 16
         
-        self.backgroundColor = UIColor.init(displayP3Red: 35.0/255.0, green: 31.0/255.0, blue: 
+        self.backgroundColor = UIColor.init(displayP3Red: 35.0/255.0, green: 31.0/255.0, blue: 32.0/255.0, alpha: 1.0)
+    }
+
+    override func setSelected(_ selected: Bool,
