@@ -203,3 +203,88 @@
 					4B80E605220A33310088E8A7 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4B80E619220A33330088E8A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4B80E605220A33310088E8A7;
+					};
+				};
+			};
+			buildConfigurationList = 4B80E601220A33310088E8A7 /* Build configuration list for PBXProject "KrasamoStockTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B80E5FD220A33310088E8A7;
+			productRefGroup = 4B80E607220A33310088E8A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B80E605220A33310088E8A7 /* KrasamoStockTracker */,
+				4B80E619220A33330088E8A7 /* KrasamoStockTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B80E604220A33310088E8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80E614220A33320088E8A7 /* LaunchScreen.storyboard in Resources */,
+				4B80E611220A33320088E8A7 /* Assets.xcassets in Resources */,
+				4B80E60F220A33310088E8A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80E618220A33330088E8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B80E602220A33310088E8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80E63E220AA2B80088E8A7 /* StockViewController.swift in Sources */,
+				4B80E63C220A6E100088E8A7 /* IEXClient.swift in Sources */,
+				4B80E60A220A33310088E8A7 /* AppDelegate.swift in Sources */,
+				4B80E633220A6A090088E8A7 /* IEXConstants.swift in Sources */,
+				4B80E638220A6B8A0088E8A7 /* Quote.swift in Sources */,
+				4B80E62C220A38410088E8A7 /* StockCell.swift in Sources */,
+				4B80E643220B74530088E8A7 /* StockDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80E616220A33330088E8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80E61F220A33330088E8A7 /* KrasamoStockTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B80E61C220A33330088E8A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B80E605220A33310088E8A7 /* KrasamoStockTracker */;
+			targetProxy = 4B80E61B220A33330088E8A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B80E60D220A33310088E8A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B80E60E220A33310088E8A7 /* Base */,
+			);
+			name = Main.storyboard;
