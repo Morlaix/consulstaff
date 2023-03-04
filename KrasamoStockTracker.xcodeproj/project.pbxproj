@@ -121,3 +121,85 @@
 		4B80E636220A6B7C0088E8A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4B80E642220B74530088E8A7 /* StockDataSource.swift */,
+				4B80E637220A6B8A0088E8A7 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B80E63F220AECEB0088E8A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B80E62B220A38410088E8A7 /* StockCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BD2415C220BB47F0052FD39 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B80E63D220AA2B80088E8A7 /* StockViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4BD2415D220BB4B30052FD39 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4B80E60D220A33310088E8A7 /* Main.storyboard */,
+				4B80E612220A33320088E8A7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B80E605220A33310088E8A7 /* KrasamoStockTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80E623220A33330088E8A7 /* Build configuration list for PBXNativeTarget "KrasamoStockTracker" */;
+			buildPhases = (
+				4B80E602220A33310088E8A7 /* Sources */,
+				4B80E603220A33310088E8A7 /* Frameworks */,
+				4B80E604220A33310088E8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrasamoStockTracker;
+			productName = KrasamoStockTracker;
+			productReference = 4B80E606220A33310088E8A7 /* KrasamoStockTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B80E619220A33330088E8A7 /* KrasamoStockTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80E626220A33330088E8A7 /* Build configuration list for PBXNativeTarget "KrasamoStockTrackerTests" */;
+			buildPhases = (
+				4B80E616220A33330088E8A7 /* Sources */,
+				4B80E617220A33330088E8A7 /* Frameworks */,
+				4B80E618220A33330088E8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B80E61C220A33330088E8A7 /* PBXTargetDependency */,
+			);
+			name = KrasamoStockTrackerTests;
+			productName = KrasamoStockTrackerTests;
+			productReference = 4B80E61A220A33330088E8A7 /* KrasamoStockTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B80E5FE220A33310088E8A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rays Industrial Computers";
+				TargetAttributes = {
+					4B80E605220A33310088E8A7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
