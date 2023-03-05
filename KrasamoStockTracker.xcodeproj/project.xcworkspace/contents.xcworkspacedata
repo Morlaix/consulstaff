@@ -2,4 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:KrasamoStockTracker.xcode
+      location = "self:KrasamoStockTracker.xcodeproj">
+   </FileRef>
+</Workspace>
