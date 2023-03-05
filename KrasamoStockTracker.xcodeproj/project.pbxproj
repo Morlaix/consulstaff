@@ -510,3 +510,22 @@
 		4B80E623220A33330088E8A7 /* Build configuration list for PBXNativeTarget "KrasamoStockTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
+				4B80E624220A33330088E8A7 /* Debug */,
+				4B80E625220A33330088E8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B80E626220A33330088E8A7 /* Build configuration list for PBXNativeTarget "KrasamoStockTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80E627220A33330088E8A7 /* Debug */,
+				4B80E628220A33330088E8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B80E5FE220A33310088E8A7 /* Project object */;
+}
