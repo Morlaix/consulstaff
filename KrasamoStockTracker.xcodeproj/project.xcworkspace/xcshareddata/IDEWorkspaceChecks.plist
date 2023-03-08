@@ -3,4 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>IDEDidComputeMac32BitWarning</key>
-	
+	<true/>
+</dict>
+</plist>
