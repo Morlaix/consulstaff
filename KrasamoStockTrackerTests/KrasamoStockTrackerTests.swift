@@ -8,3 +8,8 @@
 
 import XCTest
 @testable import KrasamoStockTracker
+
+class KrasamoStockTrackerTests: XCTestCase {
+
+    override func setUp() {
+    
